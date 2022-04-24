@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79A3DB14F809D359D32C086D /* Pods_Snap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5C4644A6E6F3F67BD9E684 /* Pods_Snap.framework */; };
 		9C8C79182815991B00216C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C79172815991B00216C9D /* AppDelegate.swift */; };
-		9C8C791A2815991B00216C9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C79192815991B00216C9D /* SceneDelegate.swift */; };
 		9C8C791C2815991B00216C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C791B2815991B00216C9D /* ViewController.swift */; };
-		9C8C791F2815991B00216C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8C791D2815991B00216C9D /* Main.storyboard */; };
 		9C8C79212815991B00216C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8C79202815991B00216C9D /* Assets.xcassets */; };
 		9C8C79242815991B00216C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8C79222815991B00216C9D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F5C4644A6E6F3F67BD9E684 /* Pods_Snap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAB92A251F51443E7ECD326 /* Pods-Snap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap.release.xcconfig"; path = "Target Support Files/Pods-Snap/Pods-Snap.release.xcconfig"; sourceTree = "<group>"; };
 		9C8C79142815991B00216C9D /* Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8C79172815991B00216C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C8C79192815991B00216C9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9C8C791B2815991B00216C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9C8C791E2815991B00216C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C8C79202815991B00216C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C8C79232815991B00216C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C8C79252815991B00216C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9812736EA4E3E9897E0907 /* Pods-Snap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap.debug.xcconfig"; path = "Target Support Files/Pods-Snap/Pods-Snap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +31,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A3DB14F809D359D32C086D /* Pods_Snap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97E71C413AD47D3E7F6A675E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C4644A6E6F3F67BD9E684 /* Pods_Snap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C8C790B2815991B00216C9D = {
 			isa = PBXGroup;
 			children = (
 				9C8C79162815991B00216C9D /* Snap */,
 				9C8C79152815991B00216C9D /* Products */,
+				A940F51339E67C952C4A5E54 /* Pods */,
+				97E71C413AD47D3E7F6A675E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +68,21 @@
 			isa = PBXGroup;
 			children = (
 				9C8C79172815991B00216C9D /* AppDelegate.swift */,
-				9C8C79192815991B00216C9D /* SceneDelegate.swift */,
 				9C8C791B2815991B00216C9D /* ViewController.swift */,
-				9C8C791D2815991B00216C9D /* Main.storyboard */,
 				9C8C79202815991B00216C9D /* Assets.xcassets */,
 				9C8C79222815991B00216C9D /* LaunchScreen.storyboard */,
 				9C8C79252815991B00216C9D /* Info.plist */,
 			);
 			path = Snap;
+			sourceTree = "<group>";
+		};
+		A940F51339E67C952C4A5E54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE9812736EA4E3E9897E0907 /* Pods-Snap.debug.xcconfig */,
+				3EAB92A251F51443E7ECD326 /* Pods-Snap.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C8C79282815991B00216C9D /* Build configuration list for PBXNativeTarget "Snap" */;
 			buildPhases = (
+				15FED287976DB9C801BBE779 /* [CP] Check Pods Manifest.lock */,
 				9C8C79102815991B00216C9D /* Sources */,
 				9C8C79112815991B00216C9D /* Frameworks */,
 				9C8C79122815991B00216C9D /* Resources */,
+				7E1A90534E6F60BC6253945E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +147,52 @@
 			files = (
 				9C8C79242815991B00216C9D /* LaunchScreen.storyboard in Resources */,
 				9C8C79212815991B00216C9D /* Assets.xcassets in Resources */,
-				9C8C791F2815991B00216C9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15FED287976DB9C801BBE779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1A90534E6F60BC6253945E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snap/Pods-Snap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snap/Pods-Snap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snap/Pods-Snap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C8C79102815991B00216C9D /* Sources */ = {
@@ -140,21 +201,12 @@
 			files = (
 				9C8C791C2815991B00216C9D /* ViewController.swift in Sources */,
 				9C8C79182815991B00216C9D /* AppDelegate.swift in Sources */,
-				9C8C791A2815991B00216C9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9C8C791D2815991B00216C9D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C8C791E2815991B00216C9D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9C8C79222815991B00216C9D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +334,7 @@
 		};
 		9C8C79292815991B00216C9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9812736EA4E3E9897E0907 /* Pods-Snap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +345,6 @@
 				INFOPLIST_FILE = Snap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +362,7 @@
 		};
 		9C8C792A2815991B00216C9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAB92A251F51443E7ECD326 /* Pods-Snap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +373,6 @@
 				INFOPLIST_FILE = Snap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
